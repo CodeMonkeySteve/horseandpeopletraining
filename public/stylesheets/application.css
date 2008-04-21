@@ -1,0 +1,51 @@
+body {
+  background: white;
+  color: black;
+}
+
+b {
+  font-weight: normal;
+  font-variant: small-caps;
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  margin: 0;
+}
+
+hr {
+  clear: both;
+}
+
+div.section {
+  text-indent: 1em;
+  text-align: justify;
+  clear: both;
+}
+
+div.figure {
+  text-align: center;
+  float: right;
+  margin-top: 2em;
+}
+
+span.attrib {
+  float: right;
+}
+
+.figure {
+  width: 25%;
+  background: #EEE;
+  color: black;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  padding: 0.5em;
+  margin-left: 1em;
+}
+
+#pic1 img {
+  width: 262px;
+  height: 230px;
+}
+
