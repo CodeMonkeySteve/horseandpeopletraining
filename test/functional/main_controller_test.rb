@@ -1,18 +1,15 @@
 require File.dirname(__FILE__) + '/../test_helper'
-require 'main_controller'
 
-# Re-raise errors caught by the controller.
-class MainController; def rescue_action(e) raise e end; end
+class MainControllerTest < ActionController::TestCase
 
-class MainControllerTest < Test::Unit::TestCase
-  def setup
-    @controller = MainController.new
-    @request    = ActionController::TestRequest.new
-    @response   = ActionController::TestResponse.new
-  end
+  self.display_invalid_content = true
+  assert_valid_css_files 'application'
 
-  # Replace this with your real tests.
-  def test_truth
-    assert true
+  def test_about
+    assert_routing '/', :controller => 'main', :action => 'about'
+    get :about
+    assert_response :success
+    assert_template 'about'
+    assert_valid_markup
   end
 end
