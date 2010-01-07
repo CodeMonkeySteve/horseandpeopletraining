@@ -1,3 +1,0 @@
-[submodule "vendor/plugins/assert-valid-asset"]
-	path = vendor/plugins/assert-valid-asset
-	url = git@github.com:CodeMonkeySteve/assert-valid-asset.git
