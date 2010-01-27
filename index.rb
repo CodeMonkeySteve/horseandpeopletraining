@@ -1,5 +1,6 @@
-require 'rubygems'
-require 'haml'
+#require 'rubygems'
+#require 'haml'
+require 'vendor/gems/environment.rb'
 require 'sinatra'
 
 get '/' do
