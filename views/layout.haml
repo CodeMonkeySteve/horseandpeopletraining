@@ -1,12 +1,11 @@
 !!! XML
 !!! Strict
-%html{ "xml:lang" => "en", :lang => "en", :xmlns => "http://www.w3.org/1999/xhtml" }
+%html{ 'xml:lang' => 'en', :lang => 'en', :xmlns => 'http://www.w3.org/1999/xhtml' }
   %head
-    %meta{ :content => "text/html; charset=UTF-8", "http-equiv" => "Content-type" }/
-    %meta{ :content => "en-us", "http-equiv" => "Content-Language" }/
-    %meta{ :name => "author", :content => "Julie Jene" }/
-    %link{ :rel => 'stylesheet', :href => '/css/application.css', :type => 'text/css', :media => "screen, projection" }/
-    =# javascript_include_tag :defaults
+    %meta{ :content => 'text/html; charset=UTF-8', 'http-equiv' => 'Content-type' }/
+    %meta{ :content => 'en-us', "http-equiv" => 'Content-Language' }/
+    %meta{ :name => 'author', :content => 'Julie Jene' }/
+    %link{ :rel => 'stylesheet', :href => '/stylesheet.css', :type => 'text/css', :media => 'screen, projection' }/
     %title Julie Jen&eacute;'s Horse &amp; People Training
 
   %body
@@ -17,8 +16,3 @@
 
       #main
         = yield
-
-      #footer
-        &copy;
-        = Date.today.year
-        Julie Jen&eacute;, Some Rights Reserved.

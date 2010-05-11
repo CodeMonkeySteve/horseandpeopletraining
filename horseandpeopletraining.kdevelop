@@ -19,8 +19,8 @@
   <kdevscriptproject>
     <general>
       <activedir>src</activedir>
-      <includepatterns>*.rb,*.erb,*.haml,*.css,*.js,*.yml,*.txt,*.rake,*akefile</includepatterns>
-      <excludepatterns>.git/*</excludepatterns>
+      <includepatterns>*.rb,*.haml,*.sass,*.rjs,*.rake,*.feature,*akefile,*emfile,*.rdoc,*.yml,*.txt,*.ru</includepatterns>
+      <excludepatterns>vendor/*,config/environments/*,config/boot.rb</excludepatterns>
     </general>
     <run>
       <directoryradio>executable</directoryradio>

@@ -1,6 +1,7 @@
-clear_sources
-source 'http://gemcutter.org'
+source :gemcutter
 
-gem 'sinatra',      '~> 0.9.4'
-gem 'haml',         '~> 2.2.16'
+gem 'bundler'
+gem 'sinatra'
+gem 'activesupport', '~> 2.3.5', :require => 'active_support'
+gem 'haml',          '~> 2.2.20'
 

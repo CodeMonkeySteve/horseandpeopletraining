@@ -1,3 +1,4 @@
-bin/*
-vendor/gems/*
-!vendor/gems/cache/
+.bundle
+*.kdevses
+vendor/bundler_gems/
+!vendor/bundler_gems/cache/
