@@ -1,4 +1,4 @@
 .bundle
-*.kdevses
-vendor/bundler_gems/
-!vendor/bundler_gems/cache/
+.kdev4
+vendor/bundle/*
+!vendor/bundle/cache/*.gem

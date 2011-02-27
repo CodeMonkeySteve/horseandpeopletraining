@@ -1,3 +1,5 @@
+$: << File.dirname(__FILE__)
+
 begin
   require ::File.expand_path('../.bundle/environment', __FILE__)
 rescue LoadError
