@@ -2,13 +2,14 @@ GEM
   remote: http://rubygems.org/
   specs:
     RedCloth (4.2.7)
-    activesupport (3.0.4)
-    haml (3.0.25)
-    rack (1.2.1)
-    sinatra (1.1.3)
+    activesupport (3.0.9)
+    haml (3.1.2)
+    rack (1.3.0)
+    sass (3.1.4)
+    sinatra (1.2.6)
       rack (~> 1.1)
       tilt (>= 1.2.2, < 2.0)
-    tilt (1.2.2)
+    tilt (1.3.2)
 
 PLATFORMS
   ruby
@@ -18,4 +19,5 @@ DEPENDENCIES
   activesupport
   bundler
   haml
+  sass
   sinatra
