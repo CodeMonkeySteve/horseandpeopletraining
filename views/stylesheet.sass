@@ -1,28 +1,35 @@
+@import "compass/css3/border-radius"
+
 body
   background: #a64b00
   color: black
+  font-family: "Helvetica", "Helvetica Neue", "Arial", sans-serif
   margin: 0
 
 #page
-  width: 768px
+  max-width: 1000px
   margin: 0 auto
   padding: 1em
   background: white
-
-b
-  font-weight: normal
-  font-variant: small-caps
-
 
 h1, h2, h3, h4, h5
   text-align: center
   margin: 0
 
+p
+  margin: 0.5em 0
 hr
   clear: both
 
+b
+  font-weight: normal
+  font-variant: small-caps
+
 .clear
   clear: both
+
+.content
+  text-align: justify
 
 span.caps
   font-variant: small-caps
@@ -32,17 +39,23 @@ span.caps
   text-align: justify
   clear: both
 
-.figure
+.panel
   float: right
   max-width: 262px
-  margin: 1em
+  margin: 0 1em
   padding: 1em
   color: black
   background: #ffb273
+  @include border-radius(5px)
   text-align: center
-  font-style: italic
-  font-size: smaller
-  margin-left: 1em
+  .caption
+    font-style: italic
+    font-size: smaller
 
-.attrib
-  float: right
+.quote
+  margin: 1em
+  clear: both
+  .attrib
+    float: right
+    clear: both
+    margin-bottom: 1em
